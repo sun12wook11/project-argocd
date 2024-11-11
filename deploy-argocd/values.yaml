@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   frontend:
     repository: sun12wook11/prj-frontend
-    tag: "v44"  # 기본 태그 설정
+    tag: "v1"  # 기본 태그 설정
 
   mariadb:
     repository: mariadb
@@ -15,11 +15,11 @@ image:
 
   admin:
     repository: sun12wook11/prj-admin
-    tag: "v44"
+    tag: "v1"
 
   visitor:
     repository: sun12wook11/prj-visitor
-    tag: "v44"
+    tag: "v1"
 
 service:
   frontend:
