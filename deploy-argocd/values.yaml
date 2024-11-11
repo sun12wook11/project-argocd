@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   frontend:
-    repository: nanakia1031/prj-frontend
+    repository: sun12wook11/prj-frontend
     tag: "v44"  # 기본 태그 설정
 
   mariadb:
@@ -14,11 +14,11 @@ image:
     tag: "10.6.19-focal"
 
   admin:
-    repository: nanakia1031/prj-admin
+    repository: sun12wook11/prj-admin
     tag: "v44"
 
   visitor:
-    repository: nanakia1031/prj-visitor
+    repository: sun12wook11/prj-visitor
     tag: "v44"
 
 service:
